@@ -1,3 +1,5 @@
+module.exports.store = []
+
 module.exports.responseDocs = {
   type: "object",
   properties: {
