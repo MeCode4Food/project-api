@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "nodemon",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/server/index.js",
+      "restart": true,
+      "runtimeArgs": [
+        "--stack_trace_limit=10000",
+        "--stack_size=1024",
+        "--verbose"
+      ],
+      "env": {
+        "NODE_ENV": "local"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "timeout": 10000,
+      "args": [
+        "&&",
+        "exit"
+      ]
+    }
+  ]
+}

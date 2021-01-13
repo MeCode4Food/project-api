@@ -1,0 +1,22 @@
+{
+  "name": "visable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "export NODE_ENV=local && node ./server/index.js",
+    "start-prod": "export NODE_ENV=production && node ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wesleytodd/openapi": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "signale": "^1.4.0"
+  }
+}
