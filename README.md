@@ -30,7 +30,7 @@ docker run -p 127.0.0.1:8080:8080 --name=project-api project-api
 The OpenAPI specifications of this project can be found by running the app locally and accessing the Swagger UI
 
 1. Run `npm run start-local`
-2. Go to `localhost:8080/swaggerui` (Change port number if necessary)
+2. Go to http://localhost:8080/swaggerui (Change port number if necessary)
 
 ### Basic Requirements for Endpoints:
 
