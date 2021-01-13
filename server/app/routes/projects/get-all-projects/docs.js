@@ -2,7 +2,7 @@ module.exports = {
   description: 'Get All Projects',
   // parameters: [
   //   {
-  //     in: "query",
+  //     in: "path",
   //     name: "name",
   //     description: "Name of the project",
   //     schema: {

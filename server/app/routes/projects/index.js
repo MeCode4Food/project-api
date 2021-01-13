@@ -14,9 +14,9 @@ const createNewProjectDocs = require('./create-new-project/docs')
 const updateProjectsDocs = require('./update-projects/docs')
 const assignParticipantToProjectDocs = require('./assign-participant-to-project/docs')
 
+router.post('/:id/assign-participants', oapi.path(assignParticipantToProjectDocs), assignParticipantToProjectController)
+router.patch('/:id', oapi.path(updateProjectsDocs), updateProjectsController)
 router.get('', oapi.path(getAllProjectsDocs),  getAllProjectsController)
 router.post('', oapi.path(createNewProjectDocs), createNewProjectController)
-router.patch('/{id}', oapi.path(updateProjectsDocs), updateProjectsController)
-router.post('/{id}/assign-participants', oapi.path(assignParticipantToProjectDocs), assignParticipantToProjectController)
 
 module.exports = router

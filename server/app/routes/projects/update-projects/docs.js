@@ -2,7 +2,7 @@ module.exports = {
   description: 'Update Project',
   parameters: [
     {
-      in: "query",
+      in: "path",
       name: "id",
       description: "UUID of the project",
       schema: {
